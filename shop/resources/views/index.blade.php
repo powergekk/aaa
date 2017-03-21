@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html><html><head> <meta http-equiv="X-UA-Compatible" content=edge><link rel="dns-prefetch"href="//s0.qhmsg.com"><link rel="dns-prefetch"href="//s6.qhimg.com"><link rel="dns-prefetch"href="//s7.qhimg.com"><link rel="dns-prefetch"href="//s8.qhimg.com"><link rel="dns-prefetch"href="//s10.qhimg.com"><link rel="dns-prefetch"href="//s11.qhimg.com"><link rel="dns-prefetch"href="//s12.qhimg.com"><link rel=search type="application/opensearchdescription+xml"href="/resource/other/opensearch.xml"title="360商城"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name=Keywords content="360商城，智能硬件，免费试用，智能家居，智能手表，智能家电"><meta name=Description content="360商城是一家智能硬件体验平台。这里能免费试用智能硬件，查看全方位试用报告，还可以预约、抢购并体验新上市的智能产品。"><meta property="wb:webmaster" content=82757f177989599b><meta name=renderer content=webkit><title>360商城</title><link rel="shortcut icon"href="/resource/img/favicon.ico"> <!--[if lt IE 9]> <script src="https://s.ssl.qhmsg.com/static/c3c3cb852a8db688/htmlshiv.min.js" ></script> <![endif]--> <script>var mall_page = {
             qtoken: '',
             real_qtoken: '',
