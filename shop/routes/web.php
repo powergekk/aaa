@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('index');
 });
+
+//web路由全部写在这里
+Route::group(['namespace' => 'web'], function () {
+	
+	Route::get('test','TestController@index');
+
+
+});
+
+//api路由
+
+
+
