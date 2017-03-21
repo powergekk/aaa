@@ -3,14 +3,15 @@
 namespace App\Http\Controllers\web;
 
 use App\Http\Controllers\Controller;
-use App\Models\Test;
 
 class TestController extends Controller
 {
     public function index()
     {
-    	$test = Test::first();
-    	$name = $test->name;
-    	echo $name;
+    	//实例化仓库
+    	$testRepo = app('test');
+
+    	$testOne = $testRepo->getOneTest();
+    	echo $testOne->name;
     }
 }

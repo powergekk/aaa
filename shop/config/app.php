@@ -177,6 +177,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        /**
+         * 注册仓库Provider
+         */
+        App\Providers\RepositoriesServiceProvider::class,
+
+
     ],
 
     /*
