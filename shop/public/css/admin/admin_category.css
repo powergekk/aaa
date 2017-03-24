@@ -1,0 +1,159 @@
+        html,body,div,p,ul,li,span,input{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        body{
+            font-family: '微软雅黑';
+            color: #333;
+            font-size: 14px;
+        }
+        a{
+            color: #333;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+            color: #6600ff;
+        }
+        .clear{
+            clear: both;
+        }
+        /*--------------content-------------------*/
+        .btns{
+            width: 890px;
+            padding-left: 10px;
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .add-category,.add-sub-category{
+            padding: 5px 15px;
+            color: #6600ff;
+            font-size: 16px;
+            border:1px solid #ccc;
+            border-radius: 3px;
+        }
+        .add-sub-category{
+            margin-left: 62px;
+            color: #cc0000;
+        }
+        .add-category:hover,.add-sub-category:hover{
+            background: #ccc;
+        }
+        .goods-class{
+            width: 100%;
+            height: auto;
+            float: left;
+        }
+        .goods-header{
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            background: #f2f2f2;
+        }
+        .goods-header p{
+            font-size: 16px;
+        }
+        .col-1{
+            float: left;
+            width: 50%;
+            height: 100%;
+            text-align: left;
+        }
+        .col-2{
+            float: left;
+            width: 30%;
+            height: 100%;
+            text-align: center;
+        }
+        .col-3{
+            float: left;
+            width: 20%;
+            height: 100%;
+            text-align: center;
+        }
+        .align-center{
+            text-align: center;
+        }
+        .goods-content{
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border: 1px solid #d7d7d7;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .goods-item{
+            width: 100%;
+            height: auto;
+        }
+        .goods-item:nth-last-child(1){
+            border-bottom: 0;
+        }
+        .item-detail li{
+            width: 100%;
+            height: 49px;
+            line-height: 49px;
+            border-bottom: 2px solid #d7d7d7;
+        }
+        .item-detail:nth-last-child(1){
+            border-bottom: 0;
+        }
+        .show-item{
+            width: 100%;
+            height: 49px;
+            line-height: 49px;
+            border-bottom: 2px solid #d7d7d7;
+            overflow: hidden;
+        }
+        .arrow-bg{
+            display: inline-block;
+            width: 21px;
+            height: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor:pointer;
+        }
+        .arrow-down{
+            background: url(/images/admin/arrow_down.png) no-repeat;
+        }
+        .arrow-up{
+            background: url(/images/admin/arrow_up.png) no-repeat;
+        }
+        .goods-item input{
+            height: 26px;
+            line-height: 26px;
+            padding-left: 5px;
+            border-radius: 3px;
+            border: 1px solid #dbdfe6;
+        }
+        .detail-txt{
+            margin-left: 70px;
+        }
+        .sub-category{
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        .item-detail{
+            width: 100%;
+            height: auto;
+        }
+        .save{
+            padding: 3px 8px;
+            color: #6600ff;
+            border:1px solid #ccc;
+            border-radius: 3px;
+            margin-left: 5px;
+            margin-top: 3px;
+        }
+        .save:hover{
+            background: #ccc;
+        }

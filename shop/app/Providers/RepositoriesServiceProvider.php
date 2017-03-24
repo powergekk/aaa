@@ -23,12 +23,20 @@ class RepositoriesServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        //测试仓库
         $this->registerTestRepository();
+        //商品分类
+        $this->registerGoodsRepository();
     }
 
     public function registerTestRepository()
     {
         $this->app->singleton('test', 'App\Repository\Test\Eloquent\TestRepository');
     }
+
+    public function registerGoodsRepository()
+    {
+        $this->app->singleton('category', 'App\Repository\Category\Eloquent\CategoryRepository');
+    }
+
 }
